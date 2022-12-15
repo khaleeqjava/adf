@@ -1,0 +1,9 @@
+{
+	"name": "datafactoryhamiz",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "04709795-c092-4307-b2d2-5e7637c01dd5",
+		"tenantId": "b7df2efd-0d88-4fb2-9194-20c4215e67f9"
+	}
+}
