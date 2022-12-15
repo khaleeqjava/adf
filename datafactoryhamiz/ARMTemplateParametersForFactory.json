@@ -4,6 +4,9 @@
 	"parameters": {
 		"factoryName": {
 			"value": "datafactoryhamiz"
+		},
+		"AzureBlobStoragefordataset1_connectionString": {
+			"value": ""
 		}
 	}
 }

@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "datafactoryhamiz"
 		},
+		"AzureBlobStoragefordataset1_connectionString": {
+			"value": ""
+		},
 		"containerUri": {
 			"value": ""
 		},
