@@ -1,0 +1,84 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStoragefordataset1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Cars Data.csv",
+				"container": "raw"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Make",
+				"type": "String"
+			},
+			{
+				"name": "Model",
+				"type": "String"
+			},
+			{
+				"name": "Type",
+				"type": "String"
+			},
+			{
+				"name": "Origin",
+				"type": "String"
+			},
+			{
+				"name": "DriveTrain",
+				"type": "String"
+			},
+			{
+				"name": "MSRP",
+				"type": "String"
+			},
+			{
+				"name": "Invoice",
+				"type": "String"
+			},
+			{
+				"name": "EngineSize",
+				"type": "String"
+			},
+			{
+				"name": "Cylinders",
+				"type": "String"
+			},
+			{
+				"name": "Horsepower",
+				"type": "String"
+			},
+			{
+				"name": "MPG_City",
+				"type": "String"
+			},
+			{
+				"name": "MPG_Highway",
+				"type": "String"
+			},
+			{
+				"name": "Weight",
+				"type": "String"
+			},
+			{
+				"name": "Wheelbase",
+				"type": "String"
+			},
+			{
+				"name": "Length",
+				"type": "String"
+			}
+		]
+	}
+}
